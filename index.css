@@ -10,4 +10,32 @@
 
 ul {
   list-style: none;
+  padding-right: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+#user-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+#user-list li h2, #user-list li h3 {
+  text-align: center;
+}
+
+.h3Link {
+  cursor: pointer;
+  color: blue;
+}
+
+hr {
+  border: 5px solid;
+  width: 100%;
+}
+
+.h3Link:hover, hr {
+  color: dodgerblue;
 }
